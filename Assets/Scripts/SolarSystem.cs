@@ -7,6 +7,8 @@ public class SolarSystem : MonoBehaviour
     readonly float G = 100f;
     GameObject[] celestials;
 
+    public float rotationSpeed = 10f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +20,10 @@ public class SolarSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        foreach (GameObject celestial in celestials)
+        {
+            celestial.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+        }
     }
 
     private void FixedUpdate()
