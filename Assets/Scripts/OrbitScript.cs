@@ -8,6 +8,7 @@ public class OrbitScript : MonoBehaviour
     public Transform center;  // The center of the ellipse (sun)
     private float initialDistance; // Initial distance from sun
     public float orbitalSpeed = 10f;    // Adjust in the Inspector
+    public float eccentricity = 0.5f;   // Adjust to make the orbit more elliptical
 
     private float angle = 0f;
 
@@ -20,7 +21,7 @@ public class OrbitScript : MonoBehaviour
     {
         angle += orbitalSpeed * Time.deltaTime;
         float x = center.position.x + initialDistance * Mathf.Cos(angle);
-        float z = center.position.z + initialDistance * Mathf.Sin(angle);
+        float z = center.position.z + initialDistance * Mathf.Sin(angle) * eccentricity;
         transform.position = new Vector3(x, transform.position.y, z);
     }
 }
