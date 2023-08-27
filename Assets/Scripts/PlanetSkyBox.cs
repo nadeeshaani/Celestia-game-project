@@ -7,6 +7,7 @@ public class PlanetSkyBox : MonoBehaviour
     public Material planetSkybox;  // Assign the respective planet's skybox material
     public GameObject objectsToHide; // Assign the parent GameObject for objects you want to hide
 
+
     private void OnMouseDown()
     {
         // Hide the current objects
