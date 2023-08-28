@@ -7,6 +7,8 @@ public class CameraMovement : MonoBehaviour
     public float sensitivity = 2.0f;  // Mouse sensitivity
     private Vector3 rotation;
 
+
+
     void Update()
     {
         // Rotate the camera based on mouse input
