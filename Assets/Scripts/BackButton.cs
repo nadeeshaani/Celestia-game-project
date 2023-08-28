@@ -7,6 +7,7 @@ public class BackButton : MonoBehaviour
     public Material defaultSkybox;  // Assign the default skybox material in the Inspector
     public GameObject objectsToReactivate; // Assign the GameObject containing the hidden objects
     public ShowButtonOnPlanetClick showButtonScript;  // Assign the ShowButtonOnPlanetClick script in the Inspector
+    public ShowScrollViewOnPlanetClick showScrollViewScript;
 
 
     public void OnBackButtonClick()
@@ -18,6 +19,7 @@ public class BackButton : MonoBehaviour
         objectsToReactivate.SetActive(true);
 
         showButtonScript.HideButton();  // Hide the button
+        showScrollViewScript.HideScrollView(); // Hide the scroll View
 
     }
 }
