@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShowButtonOnPlanetClick : MonoBehaviour
+public class ShowButtonOnPlanetClick: MonoBehaviour
 {
     public GameObject button;  // Assign the Button GameObject in the Inspector
-
 
     private void Start()
     {
@@ -16,4 +15,10 @@ public class ShowButtonOnPlanetClick : MonoBehaviour
     {
         button.SetActive(true);  // Show the button
     }
+
+    public void HideButton()
+    {
+        button.SetActive(false);  // Hide the button
+    }
+
 }
