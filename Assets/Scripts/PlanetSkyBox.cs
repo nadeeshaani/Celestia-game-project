@@ -17,11 +17,6 @@ public class PlanetSkyBox : MonoBehaviour
 
         // Show the button
         buttonScript.ShowButton();
-
-        // show scrollview
-        scrollViewScript.ShowScrollView();
-
-        // show the scrollView
         
 
         // Set the new skybox

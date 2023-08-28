@@ -6,6 +6,7 @@ public class ShowScrollViewOnPlanetClick : MonoBehaviour
 {
     public GameObject scrollView;
 
+
     // Start is called before the first frame update
     private void Start()
     {
