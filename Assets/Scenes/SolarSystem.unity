@@ -351,6 +351,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 0.02
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!1 &134744227
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,6 +362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 134744228}
   - component: {fileID: 134744229}
+  - component: {fileID: 134744230}
   m_Layer: 5
   m_Name: StopOrbit_Toggle
   m_TagString: Untagged
@@ -438,6 +440,27 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &134744230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134744227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa031e1f70dfc44cade64b8e1e40ec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orbitScripts:
+  - {fileID: 252093758}
+  - {fileID: 735861895}
+  - {fileID: 1080991311}
+  - {fileID: 1672014566}
+  - {fileID: 1702958969}
+  - {fileID: 1900233569}
+  - {fileID: 99878864}
+  - {fileID: 2036329997}
 --- !u!1 &173560978
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +769,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 2
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!1 &308273309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,6 +1505,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 1.3
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!1 &740101312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,6 +1616,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1710,6 +1736,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 2
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5da699fa011f28419e268b8bfa54ee0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomSpeed: 5
+  minZoomDistance: 1
+  maxZoomDistance: 20
 --- !u!1 &1080991300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1925,6 +1966,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 1
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!114 &1080991312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2975,6 +3017,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 0.084
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!1 &1702958962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,6 +3246,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 0.53
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!1 &1900233562
 GameObject:
   m_ObjectHideFlags: 0
@@ -3431,6 +3475,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 0.04
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!1 &2036329990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,6 +3704,7 @@ MonoBehaviour:
   center: {fileID: 740101316}
   orbitalSpeed: 0.009
   eccentricity: 1.1
+  canOrbit: 1
 --- !u!1 &2070439571
 GameObject:
   m_ObjectHideFlags: 0
