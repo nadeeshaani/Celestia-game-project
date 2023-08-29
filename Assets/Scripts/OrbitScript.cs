@@ -10,6 +10,8 @@ public class OrbitScript : MonoBehaviour
     public float orbitalSpeed = 10f;    // Adjust in the Inspector
     public float eccentricity = 0.5f;   // Adjust to make the orbit more elliptical
 
+    public bool canOrbit = true;  // Toggle to enable or disable orbiting
+
     private float angle = 0f;
 
     void Start()
@@ -21,10 +23,13 @@ public class OrbitScript : MonoBehaviour
 
     void Update()
     {
-        angle += orbitalSpeed * Time.deltaTime;
-        float x = center.position.x + initialDistance * Mathf.Cos(angle);
-        float z = center.position.z + initialDistance * Mathf.Sin(angle) * eccentricity;
-        transform.position = new Vector3(x, transform.position.y, z);
+        if (canOrbit)
+        {
+            angle += orbitalSpeed * Time.deltaTime;
+            float x = center.position.x + initialDistance * Mathf.Cos(angle);
+            float z = center.position.z + initialDistance * Mathf.Sin(angle) * eccentricity;
+            transform.position = new Vector3(x, transform.position.y, z);
+        }
     }
 }
 
