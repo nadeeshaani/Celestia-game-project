@@ -279,7 +279,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 1000
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -349,8 +349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
-  orbitalSpeed: 2
-  eccentricity: 0.5
+  orbitalSpeed: 0.02
+  eccentricity: 1.1
 --- !u!1 &252093750
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 4
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
   orbitalSpeed: 2
-  eccentricity: 0.5
+  eccentricity: 1.1
 --- !u!1 &316410700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,8 +1157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
-  orbitalSpeed: 2
-  eccentricity: 0.5
+  orbitalSpeed: 1.3
+  eccentricity: 1.1
 --- !u!1 &740101312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,7 +1531,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 15
+  m_Time: 8
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -1601,8 +1601,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
-  orbitalSpeed: 0.42
-  eccentricity: 0.5
+  orbitalSpeed: 1
+  eccentricity: 1.1
 --- !u!114 &1080991312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2348,7 +2348,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 1000
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -2418,8 +2418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
-  orbitalSpeed: 2
-  eccentricity: 0.5
+  orbitalSpeed: 0.084
+  eccentricity: 1.1
 --- !u!1 &1702958962
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,7 +2576,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 15
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -2646,8 +2646,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
-  orbitalSpeed: 2
-  eccentricity: 0.5
+  orbitalSpeed: 0.53
+  eccentricity: 1.1
 --- !u!1 &1900233562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2804,7 +2804,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 1000
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -2874,8 +2874,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
-  orbitalSpeed: 2
-  eccentricity: 0.5
+  orbitalSpeed: 0.04
+  eccentricity: 1.1
 --- !u!1 &2036329990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,7 +3032,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 1000
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -3102,5 +3102,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 740101316}
-  orbitalSpeed: 2
-  eccentricity: 0.5
+  orbitalSpeed: 0.009
+  eccentricity: 1.1
