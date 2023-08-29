@@ -15,6 +15,8 @@ public class OrbitScript : MonoBehaviour
     void Start()
     {
         initialDistance = Vector3.Distance(transform.position, center.position);
+
+        
     }
 
     void Update()
@@ -25,3 +27,4 @@ public class OrbitScript : MonoBehaviour
         transform.position = new Vector3(x, transform.position.y, z);
     }
 }
+
