@@ -1870,6 +1870,7 @@ GameObject:
   - component: {fileID: 838360789}
   - component: {fileID: 838360788}
   - component: {fileID: 838360791}
+  - component: {fileID: 838360792}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -1972,6 +1973,22 @@ MonoBehaviour:
   orbitalSpeed: 3
   eccentricity: 0.5
   canOrbit: 1
+--- !u!114 &838360792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838360786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bffa717421fcd4995dcf1c20803f71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetSkybox: {fileID: 2100000, guid: 39770b3bcab0abd4189eb3ea4b27f726, type: 2}
+  objectsToHide: {fileID: 316410700}
+  buttonScript: {fileID: 469086953}
+  scrollViewScript: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
