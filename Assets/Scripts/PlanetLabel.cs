@@ -22,3 +22,4 @@ public class PlanetLabel : MonoBehaviour
         nameLabel.transform.LookAt(Camera.main.transform);
     }
 }
+  
