@@ -634,7 +634,6 @@ GameObject:
   - component: {fileID: 252093756}
   - component: {fileID: 252093757}
   - component: {fileID: 252093758}
-  - component: {fileID: 252093759}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Celestial
@@ -850,22 +849,6 @@ MonoBehaviour:
   orbitalSpeed: 2
   eccentricity: 1.1
   canOrbit: 1
---- !u!114 &252093759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252093750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53bffa717421fcd4995dcf1c20803f71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planetSkybox: {fileID: 0}
-  objectsToHide: {fileID: 0}
-  buttonScript: {fileID: 0}
-  scrollViewScript: {fileID: 0}
 --- !u!1 &308273309
 GameObject:
   m_ObjectHideFlags: 0
