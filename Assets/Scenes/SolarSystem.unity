@@ -3525,6 +3525,7 @@ GameObject:
   - component: {fileID: 1672014564}
   - component: {fileID: 1672014565}
   - component: {fileID: 1672014566}
+  - component: {fileID: 1672014567}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -3740,6 +3741,22 @@ MonoBehaviour:
   orbitalSpeed: 0.084
   eccentricity: 1.1
   canOrbit: 1
+--- !u!114 &1672014567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672014559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bffa717421fcd4995dcf1c20803f71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetSkybox: {fileID: 2100000, guid: 9af527704df03ae4794562070544c949, type: 2}
+  objectsToHide: {fileID: 316410700}
+  buttonScript: {fileID: 469086953}
+  scrollViewScript: {fileID: 0}
 --- !u!1 &1702958962
 GameObject:
   m_ObjectHideFlags: 0
