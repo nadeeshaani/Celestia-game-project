@@ -549,6 +549,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2036329994}
     m_Modifications:
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.35
+      objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
       value: PlanetName
@@ -603,11 +611,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 7
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 7
+      value: 2.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -974,6 +982,7 @@ Transform:
   - {fileID: 1900233566}
   - {fileID: 99878861}
   - {fileID: 2036329994}
+  - {fileID: 838360787}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1173,6 +1182,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 838360787}
     m_Modifications:
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 19.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 5.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
       value: PlanetName
@@ -1227,11 +1244,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -1348,6 +1365,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 735861892}
     m_Modifications:
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.22
+      objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
       value: PlanetName
@@ -1402,11 +1427,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 7
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_margin.w
+      value: 3.7006295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_margin.z
+      value: 17.463434
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 7
+      value: 3.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -1868,13 +1901,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838360786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 36.25, y: 0, z: 0}
+  m_LocalPosition: {x: 31, y: 0, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 512125032}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 316410701}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &838360788
 SphereCollider:
@@ -2111,6 +2144,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1080991304}
     m_Modifications:
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
       value: PlanetName
@@ -2165,11 +2206,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 7
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 7
+      value: 3.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -2185,6 +2226,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 99878861}
     m_Modifications:
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.48
+      objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
       value: PlanetName
@@ -2239,11 +2288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 7
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 7
+      value: 2.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -2506,8 +2555,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1672014563}
     m_Modifications:
     - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.7
+      value: -1.68
       objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
@@ -2563,11 +2616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 5.83
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 5.83
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -2936,6 +2989,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1702958966}
     m_Modifications:
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
       value: PlanetName
@@ -2990,11 +3051,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 7
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 7
+      value: 6.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -3915,6 +3976,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 252093754}
     m_Modifications:
+    - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
       value: PlanetName
@@ -3969,11 +4034,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
@@ -3986,11 +4051,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.41
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 4333302166514717699, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.75
+      value: -1.53
       objectReference: {fileID: 0}
     - target: {fileID: 4684014141390500293, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_Name
@@ -4046,7 +4111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSize
-      value: 6
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_margin.w
@@ -4058,7 +4123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 6
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
