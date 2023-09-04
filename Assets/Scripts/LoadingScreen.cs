@@ -1,14 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LoadingScreen : MonoBehaviour
 {
-    public string SolarSystem;
+    public string mainSceneName;  // Name of your main game scene
 
     private void Start()
     {
-        SceneManager.LoadSceneAsync(SolarSystem);
+        // Load the main game scene asynchronously
+        SceneManager.LoadSceneAsync(mainSceneName);
     }
 }
+
