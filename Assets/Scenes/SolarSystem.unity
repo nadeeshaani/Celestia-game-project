@@ -522,7 +522,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 625972cf26445714686631267ce7ef33, type: 3}
+    m_Font: {fileID: 12800000, guid: af30ffb9f4dc532429a6a19dacdca4c4, type: 3}
     m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
@@ -1361,6 +1361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetName
       objectReference: {fileID: 0}
+    - target: {fileID: 5348096784915812686, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     - target: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1422,9 +1426,17 @@ PrefabInstance:
       value: 17.463434
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
       value: 3.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
 --- !u!1 &714862623
@@ -2157,6 +2169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetName
       objectReference: {fileID: 0}
+    - target: {fileID: 5348096784915812686, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     - target: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2210,9 +2226,17 @@ PrefabInstance:
       value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
       value: 3.3
       objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
 --- !u!4 &965812725 stripped
@@ -2239,6 +2263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetName
       objectReference: {fileID: 0}
+    - target: {fileID: 5348096784915812686, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     - target: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2292,9 +2320,17 @@ PrefabInstance:
       value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
       value: 2.3
       objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
 --- !u!4 &1001048300 stripped
@@ -2567,6 +2603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetName
       objectReference: {fileID: 0}
+    - target: {fileID: 5348096784915812686, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     - target: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2620,9 +2660,17 @@ PrefabInstance:
       value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
 --- !u!4 &1208335743 stripped
@@ -3002,6 +3050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetName
       objectReference: {fileID: 0}
+    - target: {fileID: 5348096784915812686, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     - target: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3055,9 +3107,17 @@ PrefabInstance:
       value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
       value: 6.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
 --- !u!4 &1410422286 stripped
@@ -3240,8 +3300,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to Solar System
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f48fe7e7f06b8ec4da5e6e08466060a0, type: 2}
+  m_sharedMaterial: {fileID: 3118540633327299770, guid: f48fe7e7f06b8ec4da5e6e08466060a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3265,8 +3325,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.2
-  m_fontSizeBase: 37.2
+  m_fontSize: 49.29
+  m_fontSizeBase: 49.29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -3374,7 +3434,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 625972cf26445714686631267ce7ef33, type: 3}
+    m_Font: {fileID: 12800000, guid: af30ffb9f4dc532429a6a19dacdca4c4, type: 3}
     m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
@@ -4002,6 +4062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetName
       objectReference: {fileID: 0}
+    - target: {fileID: 5348096784915812686, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     - target: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4055,9 +4119,21 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
 --- !u!1001 &1827003367
@@ -4079,6 +4155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetName
       objectReference: {fileID: 0}
+    - target: {fileID: 5348096784915812686, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     - target: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4140,9 +4220,17 @@ PrefabInstance:
       value: 18.045837
       objectReference: {fileID: 0}
     - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
       propertyPath: m_fontSizeBase
       value: 1.6
       objectReference: {fileID: 0}
+    - target: {fileID: 7638995725646840108, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
 --- !u!4 &1827003368 stripped
