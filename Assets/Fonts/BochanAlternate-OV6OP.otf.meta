@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cd02e452efd301549b596a1b757ed105
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bochan
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e48e3d03500f1ca4ab1c0b9a9dbab7b1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

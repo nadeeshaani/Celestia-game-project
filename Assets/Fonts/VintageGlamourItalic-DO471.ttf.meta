@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8d6a5055da13c3d42983bd87e65e77e3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Vintage Glamore
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c663e8930fad5ae4b97ab89e6181a992, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cd66ef1d68d5dc840bec797ad52c907b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mercusuar
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 04d90dd5dbd26fa44afc5dccaece8570, type: 3}
+  - {fileID: 12800000, guid: a920f8da64270114d9b2f99a9a339ebf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
