@@ -8,17 +8,22 @@ public class ToggleOrbits : MonoBehaviour
     public TrailRenderer[] planetOrbits; // Assign the trail renderers in the Inspector
     public Toggle toggle;
 
-    private bool orbitsVisible = true;
+    private bool orbitsVisible = false;
 
     private void Awake()
     {
         toggle = GetComponent<Toggle>();
         toggle.onValueChanged.AddListener(OnToggleValueChanged);
+
+        foreach (TrailRenderer orbit in planetOrbits)
+        {
+            orbit.enabled = false;
+        }
     }
 
     private void OnToggleValueChanged(bool value)
     {
-        orbitsVisible = !value; // Reverse the value
+        orbitsVisible = value; // Reverse the value
 
         foreach (TrailRenderer orbit in planetOrbits)
         {

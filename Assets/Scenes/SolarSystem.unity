@@ -3446,7 +3446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hide Orbits
+  m_Text: Show Orbits
 --- !u!222 &1537436410
 CanvasRenderer:
   m_ObjectHideFlags: 0
