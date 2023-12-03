@@ -24,7 +24,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 77530c019db788c44aa1811a2aa6262d, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -47,11 +47,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CellDensity: 0.1
-    - _CellSpeed: 1.43
-    - _QueueControl: 0
+    - _CellDensity: 5
+    - _CellSpeed: 1
+    - _QueueControl: -1
     - _QueueOffset: 0
-    - _SolarFlares: -0.5
+    - _SolarFlares: 2
     m_Colors:
     - _BaseColor: {r: 1.811765, g: 1.145098, b: 0.1568628, a: 0}
     - _CellColor: {r: 0.8117647, g: 0.1872477, b: 0.03529411, a: 0}

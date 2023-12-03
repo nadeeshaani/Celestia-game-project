@@ -8,64 +8,52 @@ public class SpaceshipController : MonoBehaviour
     public float moveSpeed = 5.0f; // Speed of the spaceship movement
     public float rotationSpeed = 100.0f; // Speed of the spaceship rotation
 
-
-    void Update()
+    void FixedUpdate()
     {
-        // Get input from arrow keys
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-        // Calculate movement based on input
-        Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput) * moveSpeed * Time.deltaTime;
+        Vector3 movement = Vector3.zero;
+        float rotation = 0.0f;
 
-        // Apply the movement to the spaceship's position
-        transform.Translate(movement);
+        // Linear movement using arrow keys
+        if (horizontalInput != 0)
+        {
+            movement.x = horizontalInput;
+        }
+        else if (verticalInput != 0)
+        {
+            movement.z = verticalInput;
+        }
 
-        // Calculate rotation based on input
-        float rotation = Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
+        // Rotation using z, x, c, v keys
+        if (Input.GetKey(KeyCode.Z))
+        {
+            rotation = -rotationSpeed * Time.fixedDeltaTime;
+        }
+        else if (Input.GetKey(KeyCode.X))
+        {
+            rotation = rotationSpeed * Time.fixedDeltaTime;
+        }
+        else if (Input.GetKey(KeyCode.C))
+        {
+            transform.Rotate(Vector3.right, -rotationSpeed * Time.fixedDeltaTime);
+        }
+        else if (Input.GetKey(KeyCode.V))
+        {
+            transform.Rotate(Vector3.right, rotationSpeed * Time.fixedDeltaTime);
+        }
 
-        // Apply the rotation to the spaceship
+        // Apply movement and rotation to the spaceship
+        transform.Translate(movement * moveSpeed * Time.fixedDeltaTime, Space.Self);
         transform.Rotate(Vector3.up, rotation);
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Celestial")) // Assuming Earth has a tag "Earth"
+        if (collision.gameObject.CompareTag("Celestial"))
         {
-            // Land successfully on Earth
-            SceneManager.LoadScene("SolarSystem"); // Load the PlanetScene upon successful landing
+            SceneManager.LoadScene("SolarSystem");
         }
     }
 }
-
-
-/*
-using UnityEngine;
-
-public class SpaceshipController : MonoBehaviour
-{
-    public float moveSpeed = 5.0f; // Speed of the spaceship movement
-    public float rotationSpeed = 100.0f; // Speed of the spaceship rotation
-
-    void Update()
-    {
-        // Get input from arrow keys
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-
-        // Calculate movement based on input
-        Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput) * moveSpeed * Time.deltaTime;
-
-        // Apply the movement to the spaceship's position
-        transform.Translate(movement);
-
-        // Calculate rotation based on input
-        float rotation = Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
-
-        // Apply the rotation to the spaceship
-        transform.Rotate(Vector3.up, rotation);
-    }
-}
-
-*/
-
