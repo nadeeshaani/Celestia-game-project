@@ -49,7 +49,7 @@ Material:
     m_Floats:
     - _CellDensity: 5
     - _CellSpeed: 1
-    - _QueueControl: -1
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _SolarFlares: 2
     m_Colors:

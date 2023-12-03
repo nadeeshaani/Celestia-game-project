@@ -6,6 +6,7 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset;   // Offset distance between the spaceship and camera
 
     public float rotationSpeed = 5.0f; // Speed of camera rotation
+    public float zoomSpeed = 2.0f; // Speed of zoom
 
     private float mouseX, mouseY;
 
