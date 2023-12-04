@@ -1,14 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class SpaceshipController : MonoBehaviour
+public class SpaceshipMovement : MonoBehaviour
 {
     public float moveSpeed = 5.0f; // Speed of the spaceship movement
     public float rotationSpeed = 100.0f; // Speed of the spaceship rotation
-
-    public Transform lowerPart; // Reference to the lower part of the spaceship
 
     void FixedUpdate()
     {
@@ -49,13 +44,6 @@ public class SpaceshipController : MonoBehaviour
         // Apply movement and rotation to the spaceship
         transform.Translate(movement * moveSpeed * Time.fixedDeltaTime, Space.Self);
         transform.Rotate(Vector3.up, rotation);
-
-        // Check collision with the lower part of the spaceship
-        RaycastHit hit;
-        if (Physics.Raycast(lowerPart.position, Vector3.down, out hit, 1.0f) && hit.collider.CompareTag("Celestial"))
-        {
-            SceneManager.LoadScene("SolarSystem");
-        }
     }
 }
 
