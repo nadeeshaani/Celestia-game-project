@@ -3633,6 +3633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: saturn
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29b39bef22c28c048ae2b7561bf4dbc4, type: 3}
+      propertyPath: m_TagString
+      value: Celestial
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29b39bef22c28c048ae2b7561bf4dbc4, type: 3}
 --- !u!1 &1584478787 stripped
