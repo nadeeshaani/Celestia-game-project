@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &731990214 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1733401544330052246, guid: 84e00994e87d63e46900ca72ac2986fb, type: 3}
-  m_PrefabInstance: {fileID: 1499468142515728740}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1189999524
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,12 +200,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5952332621756009179, guid: 280f1f1034162c74ca7301907a97e6e0, type: 3}
       propertyPath: m_Name
-      value: Saturn
+      value: Uranus
       objectReference: {fileID: 0}
     - target: {fileID: 5952332621756009181, guid: 280f1f1034162c74ca7301907a97e6e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 93cc2a70acf1b554cb57766dc07dc7ea, type: 2}
+      objectReference: {fileID: 2100000, guid: 084fbf84172bac94b8398c8c8477e812, type: 2}
     - target: {fileID: 5952332621756009183, guid: 280f1f1034162c74ca7301907a97e6e0, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -257,6 +252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280f1f1034162c74ca7301907a97e6e0, type: 3}
+--- !u!1 &1575622643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1733401544330052246, guid: 84e00994e87d63e46900ca72ac2986fb, type: 3}
+  m_PrefabInstance: {fileID: 1499468142515728740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1592669484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6483760896874791591, guid: 3ad414fe2f4c221439e5f662f2e14d6d, type: 3}
@@ -273,13 +273,13 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731990214}
+  m_GameObject: {fileID: 1575622643}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b2bcb179dd6e143ab75b3639f8b173, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c9f29e23f1cf184baacdf3bcbfcaaed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saturnPanelLoad: {fileID: 1592669484}
+  uranusPanelLoad: {fileID: 1592669484}
 --- !u!1001 &894682667438579333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -469,12 +469,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6483760895301581556, guid: 3ad414fe2f4c221439e5f662f2e14d6d, type: 3}
       propertyPath: m_text
-      value: "Class: Planet \nDiameter: 120,536 km \nKnown Moons: 62 \nOrbit Distance:
-        1.4 billion km \nOrbit Period: 29.5 years \nSurface Temperature: -139\xB0C"
+      value: "Class: Planet \nDiameter: 51,118 km \nKnown Moons: 27 \nOrbit Distance:
+        2.9 billion km \nOrbit Period: 84.0 years \nSurface Temperature: -197\xB0C"
       objectReference: {fileID: 0}
     - target: {fileID: 6483760895841067833, guid: 3ad414fe2f4c221439e5f662f2e14d6d, type: 3}
       propertyPath: m_text
-      value: 'Planet Saturn
+      value: 'Planet Uranus
 
 '
       objectReference: {fileID: 0}
