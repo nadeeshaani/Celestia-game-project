@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 2800000, guid: 01359bd9af147684b92ecf532393b0c6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1f83a3a99829b3a49b60e8f8648ed304, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -93,7 +93,7 @@ Material:
     - _BlendOp: 0
     - _BumpScale: 1
     - _ClearCoat: 0
-    - _ClearCoatMask: 1
+    - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 0
     - _Cutoff: 0.5
