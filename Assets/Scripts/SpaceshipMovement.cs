@@ -5,6 +5,14 @@ public class SpaceshipMovement : MonoBehaviour
     public float moveSpeed = 5.0f; // Speed of the spaceship movement
     public float rotationSpeed = 100.0f; // Speed of the spaceship rotation
 
+    public AudioSource whooshAudio;
+
+    void Start()
+    {
+        // Get the AudioSource component from the Spaceship
+        
+    }
+
     void FixedUpdate()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
@@ -44,6 +52,20 @@ public class SpaceshipMovement : MonoBehaviour
         // Apply movement and rotation to the spaceship
         transform.Translate(movement * moveSpeed * Time.fixedDeltaTime, Space.Self);
         transform.Rotate(Vector3.up, rotation);
+
+        whooshAudio = GetComponent<AudioSource>();
+
+        if (horizontalInput != 0 || verticalInput != 0)
+        {
+            if (!whooshAudio.isPlaying) // Ensure sound isn't already playing
+            {
+                whooshAudio.Play(); // Play the sound
+            }
+        }
+        else
+        {
+            whooshAudio.Stop(); // Stop the sound when no movement input
+        }
     }
 }
 

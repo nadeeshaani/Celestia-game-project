@@ -3,7 +3,7 @@ using UnityEngine;
 public class EarthPanelLoad : MonoBehaviour
 {
     public GameObject earthPanel; // Assign the UI panel for Earth in the Inspector
-    //public GameObject marsPanel; // Assign the UI panel for Mars in the Inspector
+    // public GameObject marsPanel; // Assign the UI panel for Mars in the Inspector
     // Add more panels for other planets as needed...
 
     void Start()
@@ -19,19 +19,19 @@ public class EarthPanelLoad : MonoBehaviour
         // Deactivate other panels for additional planets...
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        string collidedObjectName = collision.gameObject.name;
+        string collidedObjectName = other.gameObject.name;
 
         if (collidedObjectName.Equals("Earth"))
         {
             ActivatePanel(earthPanel);
         }
-        
-        //else if (collidedObjectName.Equals("Mars"))
-        //{
+
+        // else if (collidedObjectName.Equals("Mars"))
+        // {
         //    ActivatePanel(marsPanel);
-        //}
+        // }
         // Add more conditions for other planets...
     }
 
