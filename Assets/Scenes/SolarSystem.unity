@@ -5026,6 +5026,53 @@ PrefabInstance:
       objectReference: {fileID: -3027949736661823848, guid: cd19af8f5347cd34eb29d4c0c374ec15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}
+--- !u!1 &1791151542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791151544}
+  - component: {fileID: 1791151543}
+  m_Layer: 0
+  m_Name: SceneDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791151543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791151542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b789a8fb538512a4e8607cb5c9826b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousSceneName: SolarSystem
+  spaceshipPosition: {x: 0, y: 0, z: 133.33}
+  isOrbitingEnabled: 0
+--- !u!4 &1791151544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791151542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 144.884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1813835243 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 704e7254eb0c6f54ea38f252624a32a2, type: 3}
@@ -5188,6 +5235,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1813835251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813835243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141d2883db5840841a21fb8e8188d892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1843096517 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6285176078931075044, guid: 9a2e01fea4626ff49ae2a2ab80bdbddd, type: 3}

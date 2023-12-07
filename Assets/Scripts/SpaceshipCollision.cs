@@ -7,6 +7,14 @@ public class SpaceshipCollision : MonoBehaviour
     {
         string collidedObjectName = collision.gameObject.name;
 
+        DataManager dataManager = DataManager.GetInstance();
+        if (dataManager != null)
+        {
+            dataManager.UpdatePreviousScene(SceneManager.GetActiveScene().name);
+            dataManager.UpdateSpaceshipPosition(transform.position);
+        }
+
+
         if (collidedObjectName.Equals("Mercury"))
         {
             SceneManager.LoadScene("Mercury");
