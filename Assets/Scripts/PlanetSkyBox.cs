@@ -8,7 +8,22 @@ public class PlanetSkyBox : MonoBehaviour
     public GameObject objectsToHide; // Assign the parent GameObject for objects you want to hide
     public ShowButtonOnPlanetClick buttonScript;  // Assign the ShowButtonOnPlanetClick script component
     public ShowScrollViewOnPlanetClick scrollViewScript;
+    public AudioClip clickSound; // Assign the click sound in the inspector
 
+    private AudioSource audioSource; // Reference to the AudioSource component
+
+    private void Start()
+    {
+        // Fetch AudioSource component or add it if not present
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        // Assign the click sound to the AudioSource
+        audioSource.clip = clickSound;
+    }
 
     private void OnMouseDown()
     {
@@ -17,7 +32,12 @@ public class PlanetSkyBox : MonoBehaviour
 
         // Show the button
         buttonScript.ShowButton();
-        
+
+        // Play the click sound
+        if (clickSound != null)
+        {
+            audioSource.Play();
+        }
 
         // Set the new skybox
         RenderSettings.skybox = planetSkybox;
@@ -26,3 +46,4 @@ public class PlanetSkyBox : MonoBehaviour
         // Perform other actions if needed
     }
 }
+
