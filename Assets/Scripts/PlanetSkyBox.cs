@@ -6,6 +6,7 @@ public class PlanetSkyBox : MonoBehaviour
 {
     public Material planetSkybox;  // Assign the respective planet's skybox material
     public GameObject objectsToHide; // Assign the parent GameObject for objects you want to hide
+    public GameObject uiElements;
     public ShowButtonOnPlanetClick buttonScript;  // Assign the ShowButtonOnPlanetClick script component
     public ShowScrollViewOnPlanetClick scrollViewScript;
     public AudioClip clickSound; // Assign the click sound in the inspector
@@ -29,6 +30,7 @@ public class PlanetSkyBox : MonoBehaviour
     {
         // Hide the current objects
         objectsToHide.SetActive(false);
+        uiElements.SetActive(false);
 
         // Show the button
         buttonScript.ShowButton();

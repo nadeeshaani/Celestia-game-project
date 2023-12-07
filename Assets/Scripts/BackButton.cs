@@ -7,6 +7,7 @@ public class BackButton : MonoBehaviour
     public Material defaultSkybox;  // Assign the default skybox material in the Inspector
     public GameObject objectsToReactivate; // Assign the GameObject containing the hidden objects
     public ShowButtonOnPlanetClick showButtonScript;  // Assign the ShowButtonOnPlanetClick script in the Inspector
+    public GameObject uiElements;
 
 
     public void OnBackButtonClick()
@@ -16,6 +17,7 @@ public class BackButton : MonoBehaviour
 
         // Reactivate the hidden objects
         objectsToReactivate.SetActive(true);
+        uiElements.SetActive(true);
 
         showButtonScript.HideButton();  // Hide the button
  
