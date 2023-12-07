@@ -1,5 +1,25 @@
 # Celestia-game-project
-Celestia: Beyond the Cloud Veils is a Solar System Simulation created with Unity
+Celestia: Beyond the Cloud Veils is a 3D Solar System Simulation created with Unity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Assets used ->
