@@ -568,6 +568,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8084310122670551401, guid: 84e00994e87d63e46900ca72ac2986fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4bc7b1ceb9cba5439b1d7d7fcaa5c5d, type: 2}
+    - target: {fileID: 8084310122670551401, guid: 84e00994e87d63e46900ca72ac2986fb, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.19935915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8084310122670551401, guid: 84e00994e87d63e46900ca72ac2986fb, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0.674798
+      objectReference: {fileID: 0}
+    - target: {fileID: 8084310122670551401, guid: 84e00994e87d63e46900ca72ac2986fb, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.9433962
+      objectReference: {fileID: 0}
     - target: {fileID: 8084310122670551407, guid: 84e00994e87d63e46900ca72ac2986fb, type: 3}
       propertyPath: m_RootOrder
       value: 1
