@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Neptune.unity
     guid: 2d8785caae1e88845a928169d0e0ee72
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 5039ee6843a19604fb3e2d86617b154f
   m_configObjects: {}
