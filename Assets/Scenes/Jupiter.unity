@@ -384,6 +384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 4795926202874346862, guid: e2fb5abd9996eb649bb275406af7376c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadSolarSystemScene
+      objectReference: {fileID: 0}
     - target: {fileID: 4795926202874346863, guid: e2fb5abd9996eb649bb275406af7376c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
