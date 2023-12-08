@@ -1,10 +1,16 @@
-Celestia: Beyond the Cloud Veils is a 3D Solar System Simulation created with Unity.
+*Celestia: Beyond the Cloud Veils is a 3D Solar System Simulation created with Unity.*
 
-### Game Engine: Unity
-### Version: 2021.3.22f1
-### Gameplay video and zip file: https://drive.google.com/drive/folders/1Hm8Xya0ANM2bCcOVoj4UF6dtF5yMD7hK?usp=drive_link
+<Br/>
 
-Skybox used: https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-lite-116333
+#### Game Engine: Unity
+#### Version: 2021.3.22f1
+#### Gameplay video and zip file: https://drive.google.com/drive/folders/1Hm8Xya0ANM2bCcOVoj4UF6dtF5yMD7hK?usp=drive_link
+
+<Br/>
+
+
+
+
 
 # Screenshots
 
@@ -27,12 +33,14 @@ Skybox used: https://assetstore.unity.com/packages/3d/environments/sci-fi/real-s
 
 <a href="https://drive.google.com/uc?export=view&id=1NNoIUL-dLSFVu732XOSZMJ9Gsn4sMgzl"><img src="https://drive.google.com/uc?export=view&id=1NNoIUL-dLSFVu732XOSZMJ9Gsn4sMgzl" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
+<br/>
+<br/>
 
+Assets used -><Br/>
+<a href="https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-lite-116333">Star skybox</a><br/>
+<a href="https://youtu.be/QlUCqC3PCIg?si=lmbuxf6Qkv8lc4rA">Music</a>
 
-Assets used ->
+<br/>
+<br/>
 
-ambience music: “Beautiful Cinematic Magic Piano” | https://open.spotify.com/track/08y0MquE62ixgSO5m4FTkX?si=25ea4421ee3c4673 | https://youtu.be/QlUCqC3PCIg?si=lmbuxf6Qkv8lc4rA
-
-<hr/>
-
-## Copyright © 2023 Nadeeshani Nawarathne All Rights Reserved
+#### Copyright © 2023 Nadeeshani Nawarathne All Rights Reserved
